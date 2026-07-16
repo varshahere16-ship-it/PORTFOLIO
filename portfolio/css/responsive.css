@@ -1,0 +1,17 @@
+/* responsive.css - extracted from media queries in c:/#30daysmernstack/index.html */
+
+@media (max-width: 980px){
+  .hero-grid{ grid-template-columns: 1fr; }
+  .side-stack{ flex-direction: column; }
+  .grid-2{ grid-template-columns: 1fr; }
+  .contact-grid{ grid-template-columns: 1fr; }
+}
+
+@media (max-width: 720px){
+  .nav-links{ display:none; }
+  .hamburger{ display:inline-flex; align-items:center; gap:0.5rem; }
+  .mobile-menu{ display:block; }
+  .hero-card{ padding: 1.4rem; }
+  .hero{ padding-top: 1.6rem; }
+}
+

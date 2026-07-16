@@ -1,0 +1,11 @@
+/* animations.css - extracted from reduced-motion / animation-related parts in c:/#30daysmernstack/index.html */
+
+@media (prefers-reduced-motion: reduce){
+  html{ scroll-behavior:auto; }
+  .reveal{ opacity:1; transform:none; transition:none; }
+  .typing-caret{ animation:none; }
+  .orb{ animation:none; }
+  .project-media:after{ animation:none; }
+  .project-card:hover{ transform:none; }
+}
+
